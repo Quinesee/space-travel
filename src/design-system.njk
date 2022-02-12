@@ -6,20 +6,28 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Design System</title>
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"
+    rel="stylesheet">
+
   <link rel="stylesheet" href="/css/index.css" />
 </head>
 
-<body class="bg-dark text-white">
+<body>
 
   <div class="container">
-    <h1>Design System</h1>
+    <h1 class="ff-serif">Design System</h1>
 
     <section id="colors">
-      <h2><span>01</span> colors</h2>
+      <h2 class="ff-sans-cond uppercase letter-spacing-1"><span>01</span> colors</h2>
 
       <div class="color-swatches flex">
 
-        <div>
+        <div style="flex-grow: 1;">
           <div style="padding: 3rem 1rem 1rem; border: 1px solid white;" class="bg-dark text-white">
             #0B0D17
           </div>
@@ -27,7 +35,7 @@
           <p><span class="text-accent">HSL</span> 230°, 35%, 7%</p>
         </div>
 
-        <div>
+        <div style="flex-grow: 1;">
           <div style="padding: 3rem 1rem 1rem; border: 1px solid white;" class="bg-accent text-dark">
             #0B0D17
           </div>
@@ -35,7 +43,7 @@
           <p><span class="text-accent">HSL</span> 231°, 77%, 90%</p>
         </div>
 
-        <div>
+        <div style="flex-grow: 1;">
           <div style="padding: 3rem 1rem 1rem; border: 1px solid white;" class="bg-white text-dark">
             #FFFFFF
           </div>
